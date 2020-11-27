@@ -1,0 +1,263 @@
+/* Font used: Brandon Grotesque
+Background Color: #21212E
+Accent Color: #46C2FF */
+
+/* universal styles start here */
+html{
+    scroll-behavior: smooth;
+}
+body {
+    background: #21212e; 
+    overflow-x: hidden;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+section {
+    padding: 0px 10px 60px 10px;
+   
+}
+.section-text{
+    padding: 100px 25px 20px 0px;
+
+}
+.section-title{
+    font-size: 55px;
+    color: white;
+    font-weight: 700;
+}
+.section-title-2{
+    color: #fff;
+    font-weight: 600;
+    font-size: 40px;
+}
+/* universal styles end here */
+
+/* navbar styles start here */
+
+.navbar-brand h4, .navbar-brand:hover {
+    padding: 10px;
+    margin-block-end: 0;
+    color: #fff;
+}
+
+.navbar-brand .icon svg {
+    margin-top: -5px;
+}
+
+.nav-link {
+    color: grey;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+/* navbar styles end here */
+
+/* banner styles start here */
+
+.banner-heading {
+    font-size: 65px;
+    color: white;
+    font-weight: 700;
+}  
+
+.banner-button img {
+    width: 200px;
+    max-width: 50%;
+    height: auto;
+}
+.banner-img{
+    margin-right: -100px;
+}
+.banner-img img {
+    max-width: 100%;
+    height: 600px;
+    max-height: 150%;
+    width: 850px;
+}
+/* media queries */
+@media screen and (max-width: 1285px){
+    .banner-img{
+        margin-right: 1%;
+    }
+}
+@media screen and (max-width: 1039px){
+    .banner-img{
+        margin-right: -5%;
+    }
+}
+@media screen and (max-width: 850px){
+    .banner-img{
+        margin-right: 1%;
+    }
+}
+@media screen and (max-width: 565px){
+    .banner-img{
+        margin-right: auto;
+    }
+}
+/* banner styles end here */
+
+/* about section styles start here */
+.about-img{
+    margin-right: -60px; 
+}
+.about-img img{
+    max-width: 100%;
+    width: 600px;
+    object-fit: contain;
+    height: 700px;
+}
+/* media queries */
+@media screen and (max-width: 1330px){
+    .about-img{
+        margin-right: 1%;
+    }
+}
+@media screen and (max-width: 1039px){
+    .about-img{
+        margin-right: -5%;
+    }
+}
+@media screen and (max-width: 850px){
+    .about-img{
+        margin-right: 1%;
+    }
+}
+@media screen and (max-width: 565px){
+    .about-img{
+        margin-right: auto;
+    }
+}
+/* about section styles ends here */
+
+/* showcase section style start here*/
+.carousel-img{
+    display:flex;
+    justify-content:center;
+}
+.carousel-img img{
+    height: 550px;
+    max-width: 100%;
+
+}
+
+.showcase-section{
+    margin-right: -150px;
+     margin-left: 20px;
+}
+ /* media queries */
+ @media screen and (max-width: 768px){
+    .showcase-section{
+        margin-right:auto;
+         margin-left: auto;
+    }
+ }
+ /* showcase section style end here*/
+ /* feature section style start here*/
+ .accent-button{
+     background-color:  #46C2FF;
+     padding: 15px 50px;
+     color: #fff;
+     margin-top: 20px;
+     margin-bottom: 15px;
+     display: inline-block;
+    font-weight: 500;
+    text-align: center;
+    border: 1px solid transparent;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+ }
+
+ .feature-card{
+     box-shadow: 6px 6px 30px black;
+     padding: 20px 0px 10px 0;
+     border-radius: 10px;
+     margin: 15px 0 ;
+     max-width: 100%;
+ }
+ .feature-card-title{
+     font-weight: 600;
+     font-size:20px;
+     color: #fff;
+     margin-bottom: 15px;
+ }
+ .feature-img{
+     padding: 15px;
+     margin: 20px 0;
+     background-color: #262634;
+ }
+ .feature-img img{
+     max-width: 100%;
+     height: 50px;
+ }
+ .feature-text{
+     padding: 20px 20px 10px 20px;
+ }
+ /* feature section style end here*/
+ /* review section style start here*/
+ .review-card{
+    box-shadow: 6px 6px 30px black;
+    padding: 30px 25px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 15px 0 ;
+    max-width: 100%;
+ }
+ .review-img img{
+     max-width: 100%;
+     margin: 10px 10px 20px 10px;
+     height: 100px;
+ }
+ .review-row{
+     margin-right: -280px
+ }
+ /* media queries */
+ @media screen and (max-width: 1312px){
+    .review-row{
+        margin-right: -200px
+    }
+ }
+ @media screen and (max-width: 1024px){
+    .review-row{
+        margin-right: auto;
+    }
+ }
+ @media screen and (max-width: 768px){
+    .review-row{
+        margin-right: auto;
+    }
+ }
+ /* review section style end here*/
+ /* contact section style start here*/
+#contact{
+    background-color: #262634;
+    padding: 20px 10px;  
+    margin: 30px 0; 
+}
+
+.contact-input{
+    border: 1px solid #fff;
+    border-radius: 40px;
+    max-width: 100%;
+    width: 100%;
+    height: 40px;
+    margin: 10px 5px;
+  
+}
+.contact-title{
+   color: #fff;
+   font-size: 27px;
+
+}
+  /* contact section style end here*/
+  /* footer section style start here*/
+  footer{
+      padding: 30px 10px 10px 10px;
+  }
+  /* footer section style end here*/
